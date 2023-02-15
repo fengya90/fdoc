@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "5b5927ad6e52e29049dae8c6c63e4c46",
-"index.html": "ac83c6a12744e279b09a2b1ddaee6467",
-"/": "ac83c6a12744e279b09a2b1ddaee6467",
+"index.html": "d1eef0fd629e8574e65cbcd0713d8135",
+"/": "d1eef0fd629e8574e65cbcd0713d8135",
 "config/global.json": "d7809b2c78a34b7dbc3b2029c4711ae2",
 "images/icon.png": "00634d3a0df24672996b7eae3b826e22",
 "images/hengdian-trip/4.jpg": "a1ec89a4d8fc2be3b32d0f452bba41da",
