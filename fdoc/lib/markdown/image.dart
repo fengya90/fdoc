@@ -1,3 +1,4 @@
+import 'package:fdoc/common/common_utils.dart';
 import 'package:flutter/cupertino.dart';
 
 class MarkdownImage {
@@ -36,11 +37,7 @@ class MarkdownImage {
 
 Widget FdocImgBuilder(String url, Map<String, String> attributes) {
   if (!(url.startsWith("http://") || url.startsWith("https://"))) {
-    if (url.startsWith("/")) {
-      url = Uri.base.origin + url;
-    } else {
-      url = "${Uri.base.origin}/$url";
-    }
+    url = CommonUtils.getUrlByPath(url);
   }
   return MarkdownImage.getBaseImage(Image.network(url));
 }
