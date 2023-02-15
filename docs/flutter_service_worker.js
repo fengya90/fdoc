@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "5b5927ad6e52e29049dae8c6c63e4c46",
-"index.html": "d1eef0fd629e8574e65cbcd0713d8135",
-"/": "d1eef0fd629e8574e65cbcd0713d8135",
+"index.html": "1ae375955825bfadbaedb59ba68b94df",
+"/": "1ae375955825bfadbaedb59ba68b94df",
 "config/global.json": "d7809b2c78a34b7dbc3b2029c4711ae2",
 "images/icon.png": "00634d3a0df24672996b7eae3b826e22",
 "images/hengdian-trip/4.jpg": "a1ec89a4d8fc2be3b32d0f452bba41da",
@@ -15,7 +15,7 @@ const RESOURCES = {
 "images/hengdian-trip/2.jpg": "08fac67b669a2d8361983a55d0b7a15d",
 "images/hengdian-trip/3.jpg": "44913f273d921082579cd85b20e0d982",
 "images/hengdian-trip/1.jpg": "2ae8cb79bd24370fda81db5f71b134a7",
-"main.dart.js": "c872943e7d98f6ee7c9ea62fc8c48fb7",
+"main.dart.js": "cab555a89e299551e5744cf77a4eed11",
 "flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "about/menu.json": "9bb26f13592059eaa7a45ea445d95c7f",
 "about/about.md": "7586ee5eb38a23660656883130fab38e",

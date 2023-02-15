@@ -74,4 +74,16 @@ class CommonUtils {
     }
     return line.trim();
   }
+
+  static String getUrlByPath(String filepath) {
+    String origin = Uri.base.origin;
+    String urlpath = Uri.base.path;
+    while (urlpath.endsWith("/")) {
+      urlpath = urlpath.substring(0, urlpath.length - 1);
+    }
+    if (!filepath.startsWith("/")) {
+      filepath = "/" + filepath;
+    }
+    return origin + urlpath + filepath;
+  }
 }
